@@ -3,7 +3,7 @@ request = require "request"
 setInterval ->
   for i in [0..1]
     request.post "https://tdufes.com/php-lib/count.php",
-      form:  {"key": "key","section": "鉄道研究部s","type":"plus"}
+      form:  {"key": "key","section": "昆布家2015","type":"plus"}
       , (err, res, body)->
         console.log body
 , 53
