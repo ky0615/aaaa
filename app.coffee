@@ -6,7 +6,7 @@ setInterval ->
       form:  {"key": "key","section": "鉄道研究部","type":"plus"}
       , (err, res, body)->
         console.log body
-, 100
+, 53
 
 # setInterval ->
 #   console.log "aa"
